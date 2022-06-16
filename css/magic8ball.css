@@ -1,5 +1,5 @@
 body {
-    background: rgb(34, 9, 63, 0.3) url("../img/spiritual\ awakening1.jpg") repeat center;
+    background: rgb(34, 9, 63, 0.3) url("../img/m8b\ stars.avif") no-repeat center;
   }
   
   .page {
@@ -82,10 +82,10 @@ body {
     font-weight: bold;
   }
   
-  .hidden {
+  /* .hidden {
     display:none;
   }
-  
+   */
   .hide {
     opacity: 0;
   }
