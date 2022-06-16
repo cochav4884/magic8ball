@@ -1,2 +1,2 @@
-# magic8ball
-J4BW magic8ball
+# JS4B-8-Ball
+Final Project JS4B
