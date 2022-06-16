@@ -1,5 +1,5 @@
 //Select the element on the page to interact with!
- 
+<input type="text" name="text" placeholder="Write Your Question" />
 let button = document.querySelector("button");
 let anwser = document.querySelector("#answer")
 

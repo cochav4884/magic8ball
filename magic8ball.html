@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700|Montserrat:400,700' rel='stylesheet'
         type='text/css'>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/magic8ball.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
@@ -42,8 +42,8 @@
 
         <div class="ball">
             <img id="8ball"
-                src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballQuestion.png">
-            <p id="answer" class="answer hide">Answer </p>
+                src="/img/magic8ball_start.png" width="600px" height="600px">
+            <p id="answer" class="answer hide">Answer</p>
 
             <div class="Circle">
 
@@ -52,6 +52,7 @@
         </div>
 
         <div class="button">
+            <input class="text-dark" type="text" name="text" placeholder="Ask Me Anything" /> <br/> <br/>
             <button id="questionButton">Ask Me </button>
         </div>
 
@@ -73,61 +74,26 @@
                 //Create Array
                 // Adding my Answers 
                 const answers = [
-                    "<span style='font-size:150px;'>&#128079;</span>",
-                    "<span style='font-size:150px;'>&#128513;</span>",
-                    "<span style='font-size:150px;'>&#128512;</span>",
-                    "<span style='font-size:150px;'>&#128514;</span>",
-                    "<span style='font-size:150px;'>&#128516;</span>",
-                    "<span style='font-size:150px;'>&#128517;</span>",
-                    "<span style='font-size:150px;'>&#128518;</span>",
-                    "<span style='font-size:150px;'>&#128519;</span>",
-                    "<span style='font-size:150px;'>&#128521;</span>",
-                    "<span style='font-size:150px;'>&#128522;</span>",
-                    "<span style='font-size:150px;'>&#128523;</span>",
-                    "<span style='font-size:150px;'>&#128524;</span>",
-                    "<span style='font-size:150px;'>&#128525;</span>",
-                    "<span style='font-size:150px;'>&#128526;</span>",
-                    "<span style='font-size:150px;'>&#128527;</span>",
-                    "<span style='font-size:150px;'>&#128528;</span>",
-                    "<span style='font-size:150px;'>&#128530;</span>",
-                    "<span style='font-size:150px;'>&#128531;</span>",
-                    "<span style='font-size:150px;'>&#128532;</span>",
-                    "<span style='font-size:150px;'>&#128533;</span>",
-                    "<span style='font-size:150px;'>&#128534;</span>",
-                    "<span style='font-size:150px;'>&#128535;</span>",
-                    "<span style='font-size:150px;'>&#128536;</span>",
-                    "<span style='font-size:150px;'>&#128538;</span>",
-                    "<span style='font-size:150px;'>&#128540;</span>",
-                    "<span style='font-size:150px;'>&#128542;</span>",
-                    "<span style='font-size:150px;'>&#128543;</span>",
-                    "<span style='font-size:150px;'>&#128544;</span>",
-                    "<span style='font-size:150px;'>&#128546;</span>",
-                    "<span style='font-size:150px;'>&#128551;</span>",
-                    "<span style='font-size:150px;'>&#128552;</span>",
-                    "<span style='font-size:150px;'>&#128553;</span>",
-                    "<span style='font-size:150px;'>&#128556;</span>",
-                    "<span style='font-size:150px;'>&#128557;</span>",
-                    "<span style='font-size:150px;'>&#128562;</span>",
-                    "<span style='font-size:150px;'>&#128563;</span>",
-                    "<span style='font-size:150px;'>&#128564;</span>",
-                    "<span style='font-size:150px;'>&#128565;</span>",
-                    "<span style='font-size:150px;'>&#128591;</span>",
-                    "<span style='font-size:150px;'>&#129297;</span>",
-                    "<span style='font-size:150px;'>&#129300;</span>",
-                    "<span style='font-size:150px;'>&#129303;</span>",
-                    "<span style='font-size:150px;'>&#129309;</span>",
-                    "<span style='font-size:150px;'>&#129314;</span>",
-                    "<span style='font-size:150px;'>&#129319;</span>",
-                    "<span style='font-size:150px;'>&#129320;</span>",
-                    "<span style='font-size:150px;'>&#129321;</span>",
-                    "<span style='font-size:150px;'>&#129322;</span>",
-                    "<span style='font-size:150px;'>&#129323;</span>",
-                    "<span style='font-size:150px;'>&#129324;</span>",
-                    "<span style='font-size:150px;'>&#129325;</span>",
-                    "<span style='font-size:150px;'>&#129327;</span>",
-                    "<span style='font-size:150px;'>&#129330;</span>",
-                    "<span style='font-size:150px;'>&#129488;</span>",
-                    "<span style='font-size:150px;'>&#129505;</span>"
+                   '<img class="wh" src="img/magic8ball_1.png" />',
+                   '<img class="wh" src="img/magic8ball_2.png" />',
+                   '<img class="wh" src="img/magic8ball_3.png" />',
+                   '<img class="wh" src="img/magic8ball_4.png" />',
+                   '<img class="wh" src="img/magic8ball_5.png" />',
+                   '<img class="wh" src="img/magic8ball_6.png" />',
+                   '<img class="wh" src="img/magic8ball_7.png" />',
+                   '<img class="wh" src="img/magic8ball_8.png" />',
+                   '<img class="wh" src="img/magic8ball_9.png" />',
+                   '<img class="wh" src="img/magic8ball_10.png" />',
+                   '<img class="wh" src="img/magic8ball_11.png" />',
+                   '<img class="wh" src="img/magic8ball_12.png" />',
+                   '<img class="wh" src="img/magic8ball_13.png" />',
+                   '<img class="wh" src="img/magic8ball_14.png" />',
+                   '<img class="wh" src="img/magic8ball_15.png" />',
+                   '<img class="wh" src="img/magic8ball_16.png" />',
+                   '<img class="wh" src="img/magic8ball_17.png" />',
+                   '<img class="wh" src="img/magic8ball_18.png" />',
+                   '<img class="wh" src="img/magic8ball_19.png" />',
+                   '<img class="wh" src="img/magic8ball_20.png" />'
                 ];
 
                 //Generate random number once 
@@ -167,6 +133,7 @@
         <a href="https://www.kingjamesbibleonline.org/" target="_blank"><i class="fa-solid fa-book-bible"></i></a>
         <a href="https://www.youtube.com/watch?v=B6fA35Ved-Y&list=PLfeLRAbgkxUiHSRsq1E7wgj-DTbsWS9hW" target="_blank"><i class="fa-solid fa-dove"></i></a>
         <a href="https://kindredgrace.com/how-to-pray-for-other-people/" target="_blank"><i class="fa-solid fa-hands-praying"></i></a>
+        <a href="index.html"><i class="fa-solid fa-atom"></i></a>
         <a href="https://www.kingjamesbibleonline.org/Isaiah-Chapter-43/" target="_blank"><p>When you go through deep waters, I will be with you. When you go through rivers of difficulty, you will not drown. When you walk through the fire of oppression, you will not be burned up; the flames will not consume you. Isaiah 43:2 NLT</p></a>
     </footer>
     

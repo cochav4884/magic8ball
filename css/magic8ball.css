@@ -1,0 +1,158 @@
+body {
+    background: rgb(34, 9, 63, 0.3) url("../img/spiritual\ awakening1.jpg") repeat center;
+  }
+  
+  .page {
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+  
+  }
+  
+  html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .h2 {
+    font-size: 60px;
+    font-size: 2em;
+    color: rgb(34, 9, 63);
+    text-shadow: 0px 0px;
+    font-weight: bolder;
+  }
+  
+  h1,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px rgb(34, 9, 63);
+  }
+  
+  .ball {
+    position: relative;
+  }
+  
+  /* .ball img {
+    width: 100%;
+    max-width: 40em;
+  } */
+  
+  .wh {
+    width: 600px; 
+    height:600px;
+    position: absolute;
+    top: 120.5%;
+    left: 61.5%;
+    transform: translate(-50%, -50%);
+  }
+  
+  input {
+    background-color: rgb(0, 255, 255, 0.5);
+    width: 800px;
+    height: 200px;
+    box-shadow: 4px 8px 10px rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .answer {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 18.5%;
+    left: 40.5%;
+    width: 150px;
+    font-size: 200%;
+    border-radius: 65%;
+    height: 150px;
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display:none;
+  }
+  
+  .hide {
+    opacity: 0;
+  }
+  
+  #questionButton {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-size: 1.875em;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 9, 63);
+    border-radius: 5px;
+    border: none;
+    padding: .5em 1em;
+    width: 80%;
+    max-width: 15em;
+    margin-top: 1em;
+    margin-bottom: 20px;
+    box-shadow: 4px 8px 10px rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: rgb(49, 112, 143);
+  }
+  
+  /* footer */
+  footer {
+    text-shadow: 3px 3px rgb(34, 9, 63);
+  }
+  
+  p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-shadow: 3px 3px rgb(34, 9, 63);
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 4em;
+  }
+  
+  .fa-solid {
+    margin: 5px;
+  }
+  
+  .fa-person-praying {
+    color: rgb(34, 9, 63);
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+  }
+  
+  .fa-book-bible {
+    color: rgb(34, 9, 63);
+    text-shadow: 3px 3px rgb(255, 255, 255);
+  }
+  
+  .fa-dove {
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgb(49, 112, 143);
+  }
+  
+  .fa-hands-praying {
+    color: rgb(34, 9, 63);
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+  }
+  
+  .fa-atom {
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px rgb(49, 112, 143);
+  }
