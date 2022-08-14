@@ -32,7 +32,6 @@
 
 <body>
 
-
     <div class="page">
         <br><br><br><br><br>
         <div class="parallax">
@@ -57,7 +56,7 @@
             </div>
 
             <div class="button">
-                <input class="text-dark" type="text" name="text" placeholder="Ask me anything!" required /> <br /> <br />
+                <input class="text-dark" type="text" name="text" placeholder="Ask me anything!" /> <br /> <br />
                 <button id="questionButton">Ask Me </button>
             </div>
 
@@ -65,16 +64,14 @@
                 <source src="assets/bensound-relaxing.mp3" type="audio/mpeg">
             </audio>
 
-
-
             <script type="text/javascript">
                 //Select the element on the page to interact with!
 
-                let button = document.querySelector("button");
-                let anwser = document.querySelector("#answer")
+                let button = document.querySelector( "button" );
+                let anwser = document.querySelector( "#answer" )
 
                 // Add a click event to the button
-                button.addEventListener("click", function () {
+                button.addEventListener( "click", function () {
 
                     //Create Array
                     // Adding my Answers 
@@ -102,33 +99,21 @@
                     ];
 
                     //Generate random number once 
-
-
-
-
                     //Generate a random number 
-
                     const random_Number = Math.random() * answers.length;
 
-
-
                     //Turn Random number using the key above.
-                    const randomNumberFloor = Math.floor(random_Number)
-
-
+                    const randomNumberFloor = Math.floor( random_Number )
 
                     //alert(answers[randomNumberFloor]);
-                    anwser.innerHTML = answers[randomNumberFloor];
+                    anwser.innerHTML = answers[ randomNumberFloor ];
 
                     //Display the answer 
-                    answer.classList.remove("hide");
-                    setTimeout(function () {
-                        answer.classList.add("hide")
-                    }, 4000)
-
-
-
-                });
+                    answer.classList.remove( "hide" );
+                    setTimeout( function () {
+                        answer.classList.add( "hide" )
+                    }, 4000 )
+                } );
             </script>
 
         </div>
